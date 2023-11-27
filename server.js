@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
-const questions = require('questions');
+
 const db = mysql.createConnection(
     {
       host: "localhost",
@@ -10,6 +10,9 @@ const db = mysql.createConnection(
       database: "department_db",
     },
   );
+  db.query('SELECT * FROM employee', function (err, results) {
+    console.log(results);
+  });
 
   function init() {
     inquirer
@@ -52,8 +55,10 @@ const db = mysql.createConnection(
         console.error("Error:", error);
       });
   }
+  function viewAllEmployees() {
+    db.query('SELECT * FROM employee', function (err, results) {
+        console.log(results);
+      });
+  }
 
-
-
-  
 init();
