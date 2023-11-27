@@ -25,7 +25,7 @@ npm install in the terminal
 - ![image](https://github.com/Villzies/Employee-Database-Navigator/assets/135443479/578610cb-0a64-4cf0-b66d-70c9a665fa75)
 
 npm run start 
-- ![image]![image](https://github.com/Villzies/Tarzhey-Employee-Tracker/assets/135443479/2166e7dd-f991-441c-97a1-1e9214958e57)
+- ![image](https://github.com/Villzies/Tarzhey-Employee-Tracker/assets/135443479/2166e7dd-f991-441c-97a1-1e9214958e57)
 
 ## Demo
 https://youtu.be/dQw4w9WgXcQ?si=dyHyjSJqXiwCX_Kc
