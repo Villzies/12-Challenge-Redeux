@@ -19,7 +19,8 @@ In the command line, type 'npm install' to get started and node will install the
 
 ## Usage
 
-Clone this repository![image](https://github.com/Villzies/Employee-Database-Navigator/assets/135443479/85898bf7-ff3b-4027-b6c6-3900db82c5e7)
+Clone this repository![image](https://github.com/Villzies/Tarzhey-Employee-Tracker/assets/135443479/934bf254-74d7-4292-a9ac-6b7d332b19f7)
+
 
 npm install in the terminal
 - ![image](https://github.com/Villzies/Employee-Database-Navigator/assets/135443479/578610cb-0a64-4cf0-b66d-70c9a665fa75)
