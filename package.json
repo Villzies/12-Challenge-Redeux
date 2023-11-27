@@ -1,0 +1,17 @@
+{
+    "name": "tarzhey-employee-tracker",
+    "version": "1.0.0",
+    "description": "A simple tracker for the Tarzhey employee database",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "seed": "node db/seeds.sql",
+      "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^8.2.4",
+      "mysql2": "^3.6.0"
+    }
+  }
