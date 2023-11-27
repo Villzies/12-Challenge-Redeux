@@ -1,13 +1,14 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
 
+//Connects to MySQL DB
 const db = mysql.createConnection(
     {
       host: "localhost",
       port: "3306",
       user: "root",
       password: "Bobcat95!",
-      database: "department_db",
+      database: "employee_db",
     },
   );
   db.query('SELECT * FROM employee', function (err, results) {
