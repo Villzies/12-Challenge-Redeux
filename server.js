@@ -34,32 +34,12 @@ const db = mysql.createConnection(
         loop: true,
       },
     ])
-    .then((answers) => {
-        const selectedAction = answers.action;
-        if (selectedAction === "View All Employees") {
-          viewAllEmployees();
-        } else if (selectedAction === "Add an Employee") {
-          addEmployee();
-        } else if (selectedAction === "Update an Employee Role") {
-          updateEmployeeRole();
-        } else if (selectedAction === "View All Roles") {
-          viewAllRoles();
-        } else if (selectedAction === "Add a Role") {
-          addRole();
-        } else if (selectedAction === "View All Departments") {
-          viewAllDepartments();
-        } else if (selectedAction === "Add a Department") {
-          addDepartment();
-        }
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  }
+
+  //Pulls data from the employee database when the user selects ViewAllEmployees
   function viewAllEmployees() {
     db.query('SELECT * FROM employee', function (err, results) {
         console.log(results);
       });
   }
-
+  }
 init();
