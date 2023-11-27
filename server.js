@@ -41,5 +41,5 @@ const db = mysql.createConnection(
         console.log(results);
       });
   }
-  }
+  };
 init();
